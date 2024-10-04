@@ -13,12 +13,21 @@
         <label for="name">Enter your name:</label>
         <input type="text" id="name" name="name" required>
     
-        <label for="unavailability">Enter your unavailability:</label>
-        <input type="text" id="unavailability" name="unavailability" required>
-    
-        <input type="submit" value="Submit">
+        <label for="unavailability">Select Days of Unavailability:</label>
+        <select id="unavailability" name="unavailability" required>
+            <option value="">Select...</option>
+            <option value="m">Monday</option>
+            <option value="t">Tuesday</option>
+            <option value="w">Wednesday</option>
+            <option value="th">Thursday</option>
+            <option value="f">Friday</option>
+            <option value="sa">Saturday</option>
+            <option value="su">Sunday</option>
+        </select>
+
+        <button type="submit">Submit</button>
     </form>
-    
+
     
     
     
